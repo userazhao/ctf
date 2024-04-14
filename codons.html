@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title>Sun Biosystems - Amino Acids</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="sun.png">
+</head>
+<body>
+    <a id="logo" href="index.html">
+        <img id="logo-img" src="sun.png">
+        <h1 id="logo-text">SUN BIOSYSTEMS</h1>
+        <audio src="GLaDOS_escape_02_spheredestroy3-01.wav"></audio>
+    </a>
+    <div id="menu">
+        <h1 id="menu-title">Resources</h1>
+        <ul id="menu-list">
+            <a class="menu-item" href="bases.html"><li>Nucleobases</li></a>
+            <a class="menu-item" href="rna.html"><li>RNA</li></a>
+            <a class="menu-item" href="codons.html"><li>Amino Acids</li></a>
+        </ul>
+        <img id="menu-img" src="felix.png">
+    </div>
+    <div id="content">
+        <img id="amino-img" src="felixr.png">
+        <p id="content-text">
+            Felix the Helix says:
+            <br>
+            Ever wonder how our bodies create proteins? Each of our cells contain little pieces of biological machinery called ribosomes. These ribosomes decode long strings of RNA into long strings of amino acids, with each amino acid represented by a codon (sequence of 3 bases). These strings of amino acids are what we call proteins.
+            <br>
+            <br>
+            Use this table to understand how it works!
+        </p>
+    </div>
+    <!-- Credit to Wikipedia for this table. -->
+    <table>
+        <tbody>
+            <tr>
+                <th rowspan="2">1st base</th>
+                <th colspan="8">2nd base</th>
+                <th rowspan="2">3rd base</th>
+            </tr>
+            <tr>
+                <th colspan="2">U</th>
+                <th colspan="2">C</th>
+                <th colspan="2">A</th>
+                <th colspan="2">G</th>
+            </tr>
+            <tr>
+                <th rowspan="4">U</th>
+                <td>UUU</td>
+                <td rowspan="2" class="amino">(F) Phenylalanine</td>
+                <td>UCU</td>
+                <td rowspan="4" class="amino">(S) Serine</td>
+                <td>UAU</td>
+                <td rowspan="2" class="amino">(Y) Tyrosine</td>
+                <td>UGU</td>
+                <td rowspan="2" class="amino">(C) Cysteine</td>
+                <th>U</th>
+            </tr>
+            <tr>
+                <td>UUC</td>
+                <td>UCC</td>
+                <td>UAC</td>
+                <td>UGC</td>
+                <th>C</th>
+            </tr>
+            <tr>
+                <td>UUA</td>
+                <td rowspan="6" class="amino">(L) Leucine</td>
+                <td>UCA</td>
+                <td>UAA</td>
+                <td rowspan="2" class="amino">Stop</td>
+                <td>UGA</td>
+                <td class="amino">Stop</td>
+                <th>A</th>
+            </tr>
+            <tr>
+                <td>UUG</td>
+                <td>UCG</td>
+                <td>UAG</td>
+                <td>UGG</td>
+                <td class="amino">(W) Tryptophan</td>
+                <th>G</th>
+            </tr>
+            <tr>
+                <th rowspan="4">C</th>
+                <td>CUU</td>
+                <td>CCU</td>
+                <td rowspan="4" class="amino">(P) Proline</td>
+                <td>CAU</td>
+                <td rowspan="2" class="amino">(H) Histidine</td>
+                <td>CGU</td>
+                <td rowspan="4" class="amino">(R) Arginine</td>
+                <th>U</th>
+            </tr>
+            <tr>
+                <td>CUC</td>
+                <td>CCC</td>
+                <td>CAC</td>
+                <td>CGC</td>
+                <th>C</th>
+            </tr>
+            <tr>
+                <td>CUA</td>
+                <td>CCA</td>
+                <td>CAA</td>
+                <td rowspan="2" class="amino">(Q) Glutamine</td>
+                <td>CGA</td>
+                <th>A</th>
+            </tr>
+            <tr>
+                <td>CUG</td>
+                <td>CCG</td>
+                <td>CAG</td>
+                <td>CGG</td>
+                <th>G</th>
+            </tr>
+            <tr>
+                <th rowspan="4">A</th>
+                <td>AUU</td>
+                <td rowspan="3" class="amino">(I) Isoleucine</td>
+                <td>ACU</td>
+                <td rowspan="4" class="amino">(T) Threonine</td>
+                <td>AAU</td>
+                <td rowspan="2" class="amino">(N) Asparagine</td>
+                <td>AGU</td>
+                <td rowspan="2" class="amino">(S) Serine</td>
+                <th>U</th>
+            </tr>
+            <tr>
+                <td>AUC</td>
+                <td>ACC</td>
+                <td>AAC</td>
+                <td>AGC</td>
+                <th>C</th>
+            </tr>
+            <tr>
+                <td>AUA</td>
+                <td>ACA</td>
+                <td>AAA</td>
+                <td rowspan="2" class="amino">(K) Lysine</td>
+                <td>AGA</td>
+                <td rowspan="2" class="amino">(R) Arginine</td>
+                <th>A</th>
+            </tr>
+            <tr>
+                <td style="text-decoration:underline;text-decoration-style: dotted;" title="Start">AUG</td>
+                <td class="amino">(M) Methionine</td>
+                <td>ACG</td>
+                <td>AAG</td>
+                <td>AGG</td>
+                <th>G</th>
+            </tr>
+            <tr>
+                <th rowspan="4">G</th>
+                <td>GUU</td>
+                <td rowspan="4" class="amino">(V) Valine</td>
+                <td>GCU</td>
+                <td rowspan="4" class="amino">(A) Alanine</td>
+                <td>GAU</td>
+                <td rowspan="2" class="amino">(D) Aspartic acid</td>
+                <td>GGU</td>
+                <td rowspan="4" class="amino">(G) Glycine</td>
+                <th>U</th>
+            </tr>
+            <tr>
+                <td>GUC</td>
+                <td>GCC</td>
+                <td>GAC</td>
+                <td>GGC</td>
+                <th>C</th>
+            </tr>
+            <tr>
+                <td>GUA</td>
+                <td>GUA</td>
+                <td>GAA</td>
+                <td rowspan="2" class="amino">(E) Glutamic acid</td>
+                <td>GGA</td>
+                <th>A</th>
+            </tr>
+            <tr>
+                <td>GUG</td>
+                <td>GCG</td>
+                <td>GAG</td>
+                <td>GGG</td>
+                <th>G</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
