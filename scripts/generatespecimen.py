@@ -64,7 +64,7 @@ for b in codons:
     elif b == "G":
         pbits.append(3)
 
-negative = np.array(Image.open("negative.png"))
+negative = np.array(Image.open("../website/assets/negative.png"))
 
 nbits = []
 for x in range(0,12):
@@ -100,4 +100,4 @@ for x in range(0,12):
             specimen[x,y,1] = np.random.randint(b)
 
 specimen = Image.fromarray(specimen)
-specimen.save("specimen.png")
+specimen.save("../website/assets/specimen.png")

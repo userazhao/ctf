@@ -10,4 +10,4 @@ for x in range(0,12):
         negative[x, y, 2] = np.random.randint(1,255)
 
 negative = Image.fromarray(negative)
-negative.save("negative.png")
+negative.save("../website/assets/negative.png")

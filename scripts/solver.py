@@ -1,8 +1,8 @@
 import numpy as np
 from PIL import Image
 
-negative = np.array(Image.open("negative.png"))
-specimen = np.array(Image.open("specimen.png"))
+negative = np.array(Image.open("../website/assets/negative.png"))
+specimen = np.array(Image.open("../website/assets/specimen.png"))
 
 sbits = []
 nbits = []
