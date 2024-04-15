@@ -10,3 +10,4 @@ RUN unzip website.zip
 RUN mv -v website/* /var/www/html
 EXPOSE 80
 CMD ["apache2ctl", "-D", "FOREGROUND"]
+ENV FLAG=CTF_SDaT{5unB10syst3ms}
