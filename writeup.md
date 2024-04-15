@@ -1,4 +1,4 @@
-# Writeup for <Miscellanious>/<Sun-Biosystems>
+# Writeup for <Miscellanious>/<sun-biosystems>
 
 Authors: Albert Zhao (azhao@umass.edu)
 

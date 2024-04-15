@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  Sun-Biosystems:
-    image: localhost:56156/Sun-Biosystems
+  sun-biosystems:
+    image: localhost:56156/sun-biosystems
     build:
       context: ../../../ # do not change
-      dockerfile: Challenges/Miscellanious/Sun-Biosystems/Dockerfile
+      dockerfile: Challenges/Miscellanious/sun-biosystems/Dockerfile
     networks:
       nw0:
     deploy:

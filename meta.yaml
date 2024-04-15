@@ -1,6 +1,6 @@
-name: Sun-Biosystems
+name: sun-biosystems
 
-docker_image: localhost:56156/Sun-Biosystems
+docker_image: localhost:56156/sun-biosystems
 
 description: |
   author: Albert Zhao (azhao@umass.edu)
