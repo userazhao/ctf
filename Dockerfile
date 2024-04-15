@@ -1,11 +1,11 @@
 FROM ubuntu:latest
 
-RUN apt update
+RUN apt update -y
 
-RUN apt-get install apache2
+RUN apt install -y apache2
 
 RUN wget https://github.com/userazhao/ctf/raw/main/website.zip -O ctf.zip
 
-RUN apt-get unzip
+RUN apt install -y unzip
 
 RUN unzip ctf.zip -d /var/www
