@@ -1,0 +1,33 @@
+name: Sun-Biosystems
+
+docker_image: localhost:56156/Sun-Biosystems
+
+description: |
+  author: Albert Zhao (azhao@umass.edu)
+
+  Instruction:
+  A basic understanding of cryptography and steganography will help with this challenge. Familiarity with biology is also useful, but not necessary.
+
+  Step 1:
+    Forward the traffic back from the remote server
+  Step 2:
+    Access the website on local port and gain access to the report. There are clues and helpful resources on the website.
+  Step 3:
+    Submit the Flag.
+
+# Value should be in range of 100-300
+value: 200
+# Available categories are: 
+category: Miscellaneous
+# Your custom Flag
+flag: CTF_SDaT{5unB10syst3ms}
+
+hints:
+  - {
+    content: "Listen to Felix's hints. xxd may help.",
+    cost: 20
+  }
+  - {
+    content: "Compare the red and green channels to the blue channel in bases.png. Do you notice a pattern?",
+    cost: 40
+  }

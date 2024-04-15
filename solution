@@ -1,0 +1,16 @@
+1. Download specimen, negative, and report.
+2. Go to bases.html.
+3. Download bases.png, read the image comment and notice:
+    a. A has more blue than red and more blue than green.
+    b. G has more blue than red and more green than blue.
+    c. T has more red than blue and more blue than green.
+    d. C has more red than blue and more green than blue.
+4. Notice that the list contains hover text corresponding to 0-3 in binary.
+5. Turn each pixel in specimen and negative into 0-3 based on color ratios as described above.
+6. Read the image comment of felixr.png and do a bitwise XOR between specimen and negative.
+7. Translate the result into A, G, T, and C based on the given list.
+8. Go to rna.html, use the given list to translate A, G, T, and C to U, C, A, and G.
+9. Go to codons.html, use the given table to translate the string of U, C, A, and G into amino acids.
+10. Read beginning from Methionine, the start amino acid, and until the stop amino acid: "THEALLCAPSPASSPHRASEISGENETICCIPHER".
+11. Use the password "GENETICCIPHER" on report to unlock.
+12. Read the flag, which is CTF_SDaT{5unB10syst3ms}.
