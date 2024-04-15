@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get apache2
+RUN apt-get install apache2
 
 RUN wget https://github.com/userazhao/ctf/raw/main/website.zip -O ctf.zip
 
